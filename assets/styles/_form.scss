@@ -1,0 +1,35 @@
+form{
+    margin: 10px;
+    padding: 10px;
+    
+    display: flex;
+    height: 30px;
+}
+
+form input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    flex: 1;
+    background-color: #2F2F2F;
+    color: #D3D3D3;
+    border-radius: 20px;
+    font-size: 15px;
+
+}
+
+form button{
+    padding: 5px 10px;
+    background-color: #B22222;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-left: 8px;
+    transition: 0.5s;
+
+}
+
+form button:hover{
+    background-color: darkred;
+    cursor: pointer;
+}

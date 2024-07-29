@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+nav {
+  background-color: rgb(10, 10, 10);
+  height: 50px;
+}
+nav h1 {
+  color: #B22222;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+form {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  height: 30px;
+}
+
+form input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  flex: 1;
+  background-color: #2F2F2F;
+  color: #D3D3D3;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+form button {
+  padding: 5px 10px;
+  background-color: #B22222;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  margin-left: 8px;
+  transition: 0.5s;
+}
+
+form button:hover {
+  background-color: darkred;
+  cursor: pointer;
+}
+
+div.lista {
+  margin-top: 10px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.item {
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #B22222;
+  margin: 10px;
+  border-radius: 5px;
+  color: #F8F8FF;
+  transition: 0.5s;
+}
+
+div.item:hover {
+  background-color: #B22222;
+  cursor: pointer;
+}
+
+div.item img {
+  width: 100%;
+}
+
+body {
+  background-color: #1A1A1A;
+  font-family: "Poppins", sans-serif;
+}
+
+.marca {
+  color: rgba(240, 248, 255, 0.493);
+  text-align: center;
+  margin: 20px;
+}/*# sourceMappingURL=index.css.map */
