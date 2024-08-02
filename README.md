@@ -16,3 +16,6 @@ Este projeto é um site que simula um catálogo de filmes. O projeto é constru�
 - **SCSS:** Estilização do site.
 - **JavaScript:** Interação com a API e manipulação dinâmica do conteúdo.
 - **OMDb API** Fonte de dados para as midias relacionadas.
+
+## Agradecimentos
+- Agradecimento especial à https://www.youtube.com/@rogersdev pelo ensino deste projeto.
