@@ -1,0 +1,27 @@
+@media screen and (max-width:600px){
+
+    div.lista{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    form{
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width:900px) and (min-width: 600px){
+
+    div.lista{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    form{
+        height: 50px;
+    }
+
+}

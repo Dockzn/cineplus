@@ -1,7 +1,6 @@
 form{
     margin: 10px;
     padding: 10px;
-    
     display: flex;
     height: 30px;
 }
@@ -15,7 +14,6 @@ form input{
     color: #D3D3D3;
     border-radius: 20px;
     font-size: 15px;
-
 }
 
 form button{
@@ -23,10 +21,9 @@ form button{
     background-color: #B22222;
     color: black;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 8px;
     transition: 0.5s;
-
 }
 
 form button:hover{

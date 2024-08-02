@@ -20,7 +20,7 @@ frmPesquisa.onsubmit = (ev) =>{
         lista.innerHTML = ''
 
         if (json.Response == "False"){
-            alert("Nenhum filme encontrado")
+            alert("Nenhum titulo encontrado.\nObs: Procure pelo titulo em inglês!")
             return
         } 
 
@@ -29,7 +29,7 @@ frmPesquisa.onsubmit = (ev) =>{
             let item = document.createElement("div")
             item.classList.add("item")
 
-            item.innerHTML =`<img src="${element.Poster}" /><h2>${element.Title}</h2>`
+            item.innerHTML =`<img src="${element.Poster}" /><h2>${element.Title}</h2> <h2>- ${element.Year} </h2>`
 
             lista.appendChild(item);
         })
